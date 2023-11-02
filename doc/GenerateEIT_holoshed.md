@@ -109,6 +109,7 @@ After this, user **have to** run it for each pressure level (remember to modify 
 ## Flow chart
 
 1. Modify the ```main.py``` as above.
+   
 2. Run holoshed in terminal
 ```python 
 python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_meas_0.json
@@ -117,11 +118,12 @@ python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_mea
    
 ![reuslt](/doc/demo_imag/demo.png)
 
-4 Modify the ```main.py``` again, change the output file name of ```.txt``` file as  ```output_EIT_meas_1.txt``` for next pressure level.
+4. Modify the ```main.py``` again, change the output file name of ```.txt``` file as  ```output_EIT_meas_1.txt``` for next pressure level.
    
-1. Run holoshed in terminal again for next pressure level
+
+5. Run holoshed in terminal again for next pressure level
 ```python 
 python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_meas_1.json
 ```
-1. Repeat step 3 to step 5 again and again until finish the simulation for all the pressure level. In this case (SMART2), user have to run it 10 times.
+6. Repeat step 3 to step 5 again and again until finish the simulation for all the pressure level. In this case (SMART2), user have to run it 10 times.
 
