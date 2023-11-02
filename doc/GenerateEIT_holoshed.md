@@ -113,15 +113,15 @@ After this, user **have to** run it for each pressure level (remember to modify 
 ```python 
 python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_meas_0.json
 ```
-3. Check the result plot in ```06_global_postprocessing_results``` folder. The result should look like the following, which the peak of pressure be selected correctly and the peak of voltage located at the same time/index of peak of pressure,
+3. Check the result plot in ```06_global_postprocessing_results``` folder. The result should look like the following, which the peak of pressure be selected correctly and the peak of voltage located at the same time/index of peak of pressure
    
-    ![result](/demo_imag/demo_holoshed_result.png)
+![result](/demo_imag/demo_holoshed_result.png "holoshed result")
 
 4 Modify the ```main.py``` again, change the output file name of ```.txt``` file as  ```output_EIT_meas_1.txt``` for next pressure level.
    
-5. Run holoshed in terminal again for next pressure level
+1. Run holoshed in terminal again for next pressure level
 ```python 
 python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_meas_1.json
 ```
-6. Repeat step 3 to step 5 again and again until finish the simulation for all the pressure level. In this case (SMART2), user have to run it 10 times.
+1. Repeat step 3 to step 5 again and again until finish the simulation for all the pressure level. In this case (SMART2), user have to run it 10 times.
 
