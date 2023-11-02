@@ -115,7 +115,7 @@ python main.py /home/v196mp6/EIT_measure_only/holoshed/00_config/config_file_mea
 ```
 3. Check the result plot in ```06_global_postprocessing_results``` folder. The result should look like the following, which the peak of pressure be selected correctly and the peak of voltage located at the same time/index of peak of pressure,
    
-![result](/demo_imag/demo_holoshed_result.png)
+    ![result](/demo_imag/demo_holoshed_result.png)
 
 4 Modify the ```main.py``` again, change the output file name of ```.txt``` file as  ```output_EIT_meas_1.txt``` for next pressure level.
    
